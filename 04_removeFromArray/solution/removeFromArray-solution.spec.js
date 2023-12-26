@@ -1,6 +1,6 @@
 const removeFromArray = require('./removeFromArray-solution');
 
-describe('removeFromArray', () => {
+  ('removeFromArray', () => {
   test('removes a single value', () => {
     expect(removeFromArray([1, 2, 3, 4], 3)).toEqual([1, 2, 4]);
   });
